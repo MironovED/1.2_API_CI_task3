@@ -17,7 +17,7 @@ public class ApiTest {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("my hand hurts"))
+                .body("data", equalTo("my head hurts"))
         ;
     }
 }
